@@ -76,7 +76,8 @@
     display: none;
 }
 .splide__track--nav>.splide__list>.splide__slide.is-active {
-    border: 1px solid $grayColor;
+    border-bottom: 3px solid $mainColor;
+    margin-bottom: 5px;
 }
 .splide__pagination__page .is-active{
     background-color: $mainColor !important;
