@@ -5,6 +5,10 @@
         grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
         gap: 40px;
     }
+    &__title {
+        margin-bottom: 50px;
+        line-height: 100%;
+    }
     &__item {
         display: block;
         border: 1px solid $grayColor;

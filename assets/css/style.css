@@ -139,7 +139,7 @@ tbody {
   font-family: "NeueFrutigerWorld-Bold", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  height: 100px;
+  margin-bottom: 100px;
   color: #171717;
 }
 
@@ -418,6 +418,10 @@ tbody {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
   gap: 40px;
+}
+.products__title {
+  margin-bottom: 50px;
+  line-height: 100%;
 }
 .products__item {
   display: block;
